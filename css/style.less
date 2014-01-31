@@ -707,3 +707,40 @@ button.add{
   vertical-align: top;
   margin-top: -10px;
 }
+.modal-content{
+  background: #fcf4eb;
+  padding: 15px;
+}
+.modal-dialog{
+  width: 755px;
+}
+.add_content{
+  width: 505px;
+  margin-bottom: 20px;
+  input{
+    &.form-control{
+      margin-bottom: 20px;
+      border-radius: 2px;
+      height: 25px;
+      font-family: 'PT Sans', sans-serif;
+      font-style: italic;
+      font-size: 14px;
+      border: 1px solid #ede6de;
+
+    }
+  }
+  textarea{
+    resize: none;
+    width: 100%;
+    border: 1px solid #ede6de;
+    border-top: 25px solid #ede6de;
+    padding: 5px;
+    height: 350px;
+    margin-bottom: 20px;
+    &:focus{
+      outline: none;
+      border: 1px solid #ede6de;
+      border-top: 25px solid #ede6de;
+    }
+  }
+}
